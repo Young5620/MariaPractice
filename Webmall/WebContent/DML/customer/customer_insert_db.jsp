@@ -17,7 +17,7 @@
 // 전송 데이터 확인 및 변수 할당
 %>
 
-<%@ include file="../../common/include/jsp_id_check_irud.inc" %>
+<%@ include file="../../common/include/jsp_id_check_irud.jsp" %>
 
 <%
 	// 객체참조변수
@@ -39,7 +39,7 @@
 		}
 		else {
 			%>
-			<%@ include file="../../common/include/jsp_sql_dbset_iu.inc" %>
+			<%@ include file="../../common/include/jsp_sql_dbset_iu.jsp" %>
 			<%
 		//SQL 질의어 처리
 		//고객테이블 튜플 삽입
