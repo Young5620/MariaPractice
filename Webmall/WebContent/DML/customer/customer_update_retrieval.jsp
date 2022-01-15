@@ -14,9 +14,10 @@
 </head>
 <body>
 <%
-	// 전송데이터 확인 및 변수할당
+	// 전송 데이터 변수 할당
+	String cust_id = request.getParameter("cust_id");
 %>
-<%@ include file="../../common/include/jsp_id_check_irud.jsp" %>
+<%@ include file="../../common/include/jsp_id_check_irud.inc" %>
 <%
 	// 객체 참조 변수
 	Connection conn = null;
@@ -30,7 +31,7 @@
 		// SQL 질의어 처리
 		// 고객테이블 튜플검색
 %>
-<%@ include file="../../common/include/jsp_sql_dbget_rud.jsp" %>
+<%@ include file="../../common/include/jsp_sql_dbget_rud.inc" %>
 <%
 	// 회원검색정보출력
 %>

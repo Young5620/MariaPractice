@@ -16,8 +16,8 @@
 	<span class="msg_red">* 부분은 필수입력 항목입니다.</span></td>
 </tr>
 
-<%@ include file="../../common/include/html_input1_irud.jsp" %>
-<%@ include file="../../common/include/html_input2_rud.jsp" %>
+<%@ include file="../../common/include/html_input1_irud.inc" %>
+<%@ include file="../../common/include/html_input2_rud.inc" %>
 
 <tr>
 <td colspan="2" style="text-align:center;">

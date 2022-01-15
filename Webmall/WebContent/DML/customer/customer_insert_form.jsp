@@ -8,7 +8,7 @@
 <link rel="stylesheet" href="../../common/CSS/common.css">
 </head>
 <body>
-<form name="customer_form" method="post" action="customer_insert_db.jsp"></form>
+<form name="customer_form" method="post" action="customer_insert_db.jsp">
 <table>
 <caption>회원정보 입력</caption>
 <tr style="border-style:hidden hidden solid hidden;">
@@ -16,7 +16,7 @@
 <span class="msg_red">* 부분은 필수입력 항목입니다.</span></td>
 </tr>
 
-<%@ include file="../../common/include/html_input1_irud.jsp" %>
+<%@ include file="../../common/include/html_input1_irud.inc" %>
 
 <tr>
 <th><span class="msg_red">*</span>비밀번호</th>
@@ -67,5 +67,6 @@
 <a href="./customer_maintenance.jsp">[ 고객정보 관리 ]</a></td>
 </tr>
 </table>
+</form>
 </body>
 </html>

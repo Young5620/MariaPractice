@@ -14,7 +14,7 @@
 </head>
 <body>
 <% // 전송 데이터 확인 및 변수할당 %>
-<%@ include file="../../common/include/jsp_id_check_irud.jsp" %>
+<%@ include file="../../common/include/jsp_id_check_irud.inc" %>
 <%
 	// 객체참조변수
 	Connection conn = null;
@@ -27,7 +27,7 @@
 		// SQL 질의어 처리
 		// 고객테이블 퓨틀 검색
 	%>
-	<%@ include file="../../common/include/jsp_sql_dbget_rud.jsp" %>
+	<%@ include file="../../common/include/jsp_sql_dbget_rud.inc" %>
 	<%
 	// 회원검색정보 출력
 	%>
@@ -40,7 +40,7 @@
 	<span class="msg_red">* 부분은 필수입력 항목입니다.</span></td>
 </tr>
 
-<%@ include file="../../common/include/html_output_rd.jsp" %>
+<%@ include file="../../common/include/html_output_rd.inc" %>
 
 <tr>
 <td colspan="2" style="test-align:center;">
