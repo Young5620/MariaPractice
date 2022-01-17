@@ -14,7 +14,7 @@
 </head>
 <body>
 <% // 전송 데이터 확인 및 변수할당 %>
-<%@ include file="../../common/include/jsp_id_check_irud.inc" %>
+<%@ include file="../../common/include/jsp_id_check_iruds.inc" %>
 <%
 	// 객체참조변수
 	Connection conn = null;

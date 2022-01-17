@@ -13,11 +13,8 @@
 <link rel="stylesheet" href="../../common/CSS/common.css">
 </head>
 <body>
-<%
-	// 전송 데이터 변수 할당
-	String cust_id = request.getParameter("cust_id");
-%>
-<%@ include file="../../common/include/jsp_id_check_irud.inc" %>
+
+<%@ include file="../../common/include/jsp_id_check_iruds.inc" %>
 <%
 	// 객체 참조 변수
 	Connection conn = null;

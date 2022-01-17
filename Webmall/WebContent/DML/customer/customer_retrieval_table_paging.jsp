@@ -176,7 +176,7 @@ if(block_endpage_no < nbr_of_page) {
 	//다음 블럭 시작페이지
 	next_block_start_pageno = block_endpage_no + 1;
 	out.print("&nbsp[<a href='./customer_retrieval_table_paging.jsp?pageno=" + next_block_start_pageno + "'>다음</a>]&nbsp");
-	out.print("&nbsp[<a href='./customer_retrieval_table_paging.jsp?pageno=" + nbr_of_pageno + "'>맨 끝</a>]&nbsp");
+	out.print("&nbsp[<a href='./customer_retrieval_table_paging.jsp?pageno=" + nbr_of_page + "'>맨 끝</a>]&nbsp");
 }
 //*************************************************************************
 %>

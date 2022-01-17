@@ -13,7 +13,7 @@
 		
 	// 첫번째 레코드 커서 이동
 	rset.next();
-	String cust_id = rset.getString("cust_id"); 
+	cust_id = rset.getString("cust_id"); 
 	String cust_pw = rset.getString("cust_pw");
 	String cust_name = rset.getString("cust_name");
 	String custTelNo = rset.getString("cust_tel_no");
